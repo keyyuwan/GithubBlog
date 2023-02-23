@@ -1,3 +1,4 @@
+import { IssueCard } from './components/IssueCard'
 import { ProfileCard } from './components/ProfileCard'
 import { SearchForm } from './components/SearchForm'
 import { BlogContainer, ProfileCardWrapper, IssuesContainer } from './styles'
@@ -9,8 +10,11 @@ export function Blog() {
         <ProfileCard />
       </ProfileCardWrapper>
 
+      <SearchForm />
       <IssuesContainer>
-        <SearchForm />
+        <IssueCard />
+        <IssueCard />
+        <IssueCard />
       </IssuesContainer>
     </BlogContainer>
   )

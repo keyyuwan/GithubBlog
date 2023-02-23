@@ -4,7 +4,7 @@ export const BlogContainer = styled.div`
   max-width: 864px;
   width: 100%;
   padding: 0 1.5rem;
-  margin: 0 auto;
+  margin: 0 auto 234px;
 `
 
 export const ProfileCardWrapper = styled.div`
@@ -13,8 +13,9 @@ export const ProfileCardWrapper = styled.div`
 `
 
 export const IssuesContainer = styled.main`
-  max-width: 864px;
-  width: 100%;
-  padding: 0 1.5rem;
-  margin: 72px auto 0;
+  margin: 48px auto 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
 `
