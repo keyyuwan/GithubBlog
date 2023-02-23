@@ -4,9 +4,7 @@ export const ProfileCardContainer = styled.div`
   max-width: 864px;
   width: 100%;
   height: 212px;
-  margin-top: -84px;
   border-radius: 10px;
-  position: absolute;
   padding: 32px 40px;
 
   background: ${(props) => props.theme.profile};
