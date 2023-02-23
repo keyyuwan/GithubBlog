@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    :focus {
+        outline: 0;
+    }
+
     body {
         background: ${(props) => props.theme.background};
         -webkit-font-smoothing: antialiased;
@@ -14,5 +18,9 @@ export const GlobalStyle = createGlobalStyle`
 
     body, input, textarea, button {
         font: 400 1rem Nunito, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
     }
 `
