@@ -14,4 +14,6 @@ export const IssueTitleCardWrapper = styled.div`
 
 export const PostContent = styled.main`
   margin-top: 40px;
+
+  color: ${(props) => props.theme.text};
 `
