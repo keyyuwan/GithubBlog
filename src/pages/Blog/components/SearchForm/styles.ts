@@ -22,8 +22,15 @@ export const SearchFormContainer = styled.div`
   }
 `
 
-export const Input = styled.input`
+export const Form = styled.form`
   margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+`
+
+export const Input = styled.input`
+  flex: 1;
   width: 100%;
   height: 50px;
   border-radius: 6px;
@@ -39,5 +46,23 @@ export const Input = styled.input`
 
   &:focus {
     border-color: ${(props) => props.theme.blue};
+  }
+`
+
+export const SearchButton = styled.button`
+  height: 50px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 6px;
+  padding: 1rem;
+  background: ${(props) => props.theme.blue};
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 18px;
+    height: 18px;
   }
 `
